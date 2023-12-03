@@ -1,0 +1,68 @@
+name: sdm_digital
+description: SDM Digital package
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.8.4
+  flutter_svg: ^2.0.7
+  intl: ^0.18.1
+  overlay_support: ^2.1.0
+
+dev_dependencies:
+  assets_gen: ^1.5.0
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.0+1
+
+flutter:
+  assets:
+  - assets/fonts/
+  - assets/icons/
+  - assets/images/
+
+  fonts:
+    - family: DMSans
+      fonts:
+      - asset: assets/fonts/DMSans-Thin.ttf
+        weight: 100
+      - asset: assets/fonts/DMSans-ExtraLight.ttf
+        weight: 200
+      - asset: assets/fonts/DMSans-Light.ttf
+        weight: 300
+      - asset: assets/fonts/DMSans-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/DMSans-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/DMSans-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/DMSans-Bold.ttf
+        weight: 700
+      - asset: assets/fonts/DMSans-ExtraBold.ttf
+        weight: 800
+      - asset: assets/fonts/DMSans-Black.ttf
+        weight: 900
+
+assets_gen:
+  output: src/resource/my_assets.dart
+  class_name: MyAssets
+  gen_package_path: false
+  ignore_resolution: true
+  omit_path_levels: 0
+  exclude:
+    - assets/fonts/*
+    - assets/exclude/*
+  format_dart_code: false
+  code_style: lowerCamelCase
+
+flutter_gen:
+  assets:
+    outputs:
+      package_parameter_enabled: true
