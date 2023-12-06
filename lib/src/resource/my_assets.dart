@@ -13,7 +13,8 @@ class MyAssets {
 
   static const String assetsIconsEyeSvg = 'assets/icons/eye.svg';
 
-  static const String assetsIconsFacebookMessengerAltSvg = 'assets/icons/facebook-messenger-alt.svg';
+  static const String assetsIconsFacebookMessengerAltSvg =
+      'assets/icons/facebook-messenger-alt.svg';
 
   static const String assetsIconsHomeOffSvg = 'assets/icons/home_off.svg';
 
@@ -23,9 +24,11 @@ class MyAssets {
 
   static const String assetsIconsLocationSvg = 'assets/icons/location.svg';
 
-  static const String assetsIconsNotifikasiOffSvg = 'assets/icons/notifikasi_off.svg';
+  static const String assetsIconsNotifikasiOffSvg =
+      'assets/icons/notifikasi_off.svg';
 
-  static const String assetsIconsNotifikasiOnSvg = 'assets/icons/notifikasi_on.svg';
+  static const String assetsIconsNotifikasiOnSvg =
+      'assets/icons/notifikasi_on.svg';
 
   static const String assetsIconsProfileOffSvg = 'assets/icons/profile_off.svg';
 
@@ -41,15 +44,19 @@ class MyAssets {
 
   static const String assetsImagesKominfoPng = 'assets/images/kominfo.png';
 
-  static const String assetsImagesLihatSemuaPng = 'assets/images/lihat_semua.png';
+  static const String assetsImagesLihatSemuaPng =
+      'assets/images/lihat_semua.png';
 
   static const String assetsImagesLspPng = 'assets/images/lsp.png';
 
-  static const String assetsImagesPetaOkupasiPng = 'assets/images/peta_okupasi.png';
+  static const String assetsImagesPetaOkupasiPng =
+      'assets/images/peta_okupasi.png';
 
-  static const String assetsImagesSertifikasiGlobalPng = 'assets/images/sertifikasi_global.png';
+  static const String assetsImagesSertifikasiGlobalPng =
+      'assets/images/sertifikasi_global.png';
 
-  static const String assetsImagesSertifikasiNasionalPng = 'assets/images/sertifikasi_nasional.png';
+  static const String assetsImagesSertifikasiNasionalPng =
+      'assets/images/sertifikasi_nasional.png';
 
   static const String assetsImagesSkkniPng = 'assets/images/skkni.png';
 }
